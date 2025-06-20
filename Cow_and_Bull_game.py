@@ -1,22 +1,3 @@
-# Generate a secret number with unique digits
-# Loop
-#   Ask user to guess
-#   Validate the guess (4 digits - unique)
-#   If invalid
-#       print error
-#       Continue
-#   ELse
-#       Calculate cows and bulls
-#           for each digit in the guess
-#               if digit exists in the same position in the secret
-#                   Increment bulls
-#               if digits exists in the secret
-#                   Increment cows
-#       Print cows and bulls
-#       if bulls == 4
-#           Print message
-#           break
-
 import random
 
 def generate_secret():
